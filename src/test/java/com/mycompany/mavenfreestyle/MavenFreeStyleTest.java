@@ -25,17 +25,16 @@ public class MavenFreeStyleTest {
      */
   
 
-    @Test 
-    public void testFibonacci(){
-        //App test = new App();
+    @Test
+    public void testFibonacci() {
         MavenFreeStyle instance = new MavenFreeStyle();
-	assertTrue(instance.fibonacci(1) == 1);
+        assertEquals(1, instance.fibonacci(1));
     }
-    @Test	
-    public void testFibonacci2(){
-	//App test = new App();
+
+    @Test
+    public void testFibonacci2() {
         MavenFreeStyle instance = new MavenFreeStyle();
-        assertTrue(instance.fibonacci(10) == 55);
+        assertEquals(5, instance.fibonacci(5));
     }
     
 }
