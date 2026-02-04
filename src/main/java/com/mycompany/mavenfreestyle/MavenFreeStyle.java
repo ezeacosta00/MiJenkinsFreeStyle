@@ -16,7 +16,7 @@ public class MavenFreeStyle {
     }
     
     public int fibonacci(int n){	
-	if (v <= 1){
+	if (n <= 1){
             return n;
 	} else {
 		// Llamada recursiva
