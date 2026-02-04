@@ -34,7 +34,7 @@ public class MavenFreeStyleTest {
     @Test
     public void testFibonacci2() {
         MavenFreeStyle instance = new MavenFreeStyle();
-        assertEquals(5, instance.fibonacci(5));
+        assertEquals(7, instance.fibonacci(5));
     }
     
 }
